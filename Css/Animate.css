@@ -71,7 +71,7 @@ body {
 .main {
     position: relative;
     z-index: 999;
-    background: url(../images/bgr/santa.png) 50% 50% no-repeat;
+    /* background: url(../images/bgr/santa.png) 50% 50% no-repeat; */
     padding: 120px;
     justify-items: center;
 }
