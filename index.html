@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feliz Navidad Tracto</title>
-    <link rel="shortcut icon" href="./images/Logo.jpg" type="jpg">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+	<title> Felicitaciones navideñas </title>
+	<link rel="shortcut icon" href="./images/Logo.png">
+	<link href="./Css/animate.css" rel="stylesheet">
+	<link href="./Css/Theme.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="dark">
+    <!-- Fondo -->
+	<div class="stars"></div>
+	<div class="twinkling"></div>
+    <!-- //Fondo -->
     
+	<div class="wrap">
+		<header class="head">
+			<!--logo-->
+			<div class="logo pagina6">
+                <img id="logo" src="./images/Logo-Completo.png" alt="Logo Tractonic" />
+            </div>
+			<!--//logo-->
+		</header>
+        
+		<main class="main">
+			<div class="text">
+				<h1 data-in-effect="fadeIn">¡En Tractonic esperamos seguir compartiendo momentos únicos y continuar creciendo juntos, te deseamos una Feliz Navidad y Prospero Año a Tí y a Tu Familia!!</h1>
+			</div>
+		</main>
+	</div>
+    
+	<!-- Arboles -->
+	<div class="woods"></div>
+	<!-- //Arboles -->
+    
+	<footer class="foot white footer-6"></footer>
+    
+	<!-- audio Youtube -->
+    <div 
+        data-video = "Ym9HLeMD_d0" 
+        data-autoplay="1" 
+        data-loop="1" 
+        id="youtube-audio"
+    ></div>
+    <script src="https://www.youtube.com/iframe_api" ></script>
+    <script src="https://cdn.rawgit.com/labnol/files/master/yt.js" ></script>
+    <!-- //audio Youtube -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Js/letra.js"></script>
+    <script src="./Js/textillate.js"></script> 
+    <script src="./Js/scrips.js"></script>
+    <script>
+        $(function () {
+            $('.text h1').textillate();
+        })
+    </script>
 </body>
-</html>
